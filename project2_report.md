@@ -1,4 +1,6 @@
 # **Advanced Lane Finding Project**
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+
 
 The goals / steps of this project are the following:
 
@@ -23,7 +25,7 @@ The goals / steps of this project are the following:
 [image8]: ./output_images/output.png "Output"
 [image9]: ./output_images/radius.png "radius"
 
-[video1]: ./project_video.mp4 "Video"
+[video1]: ./output_videos/project_video_processed2.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
@@ -117,7 +119,7 @@ When I tested the pipline on the video specificly in the duration 39 to 22 sec t
 * b – color component ranging from Blue to Yellow.
 Cell Code Block 26-27.
 After finding a sxuitable threshold I added it to the image process and this was my final result.
-Here's a [link to my video result](./project_video.mp4)
+Here's a [link to my video result](https://youtu.be/B5Lr3F7Bj2g)
 
 ---
 

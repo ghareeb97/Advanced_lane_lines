@@ -1,4 +1,6 @@
 # **Advanced Lane Finding Project**
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+
 
 The goals / steps of this project are the following:
 
@@ -13,17 +15,17 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/calibration.png "Undistorted"
-[image2]: ./test_images/test1.jpg "Road Transformed"
-[image3]: ./examples/gradient_filters.png "Binary Examples"
-[image4]: ./examples/combined.png "combined Example"
-[image5]: ./examples/birdeye.png "Fit Visual"
-[image6]: ./examples/histogram.png "histogram"
-[image7]: ./examples/detecting_lane_lines.png "lane-lines-highlighted"
-[image8]: ./examples/output.png "Output"
-[image9]: ./examples/radius.png "radius"
+[image1]: ./output_images/chessboard_lines.png "ChessBoard"
+[image2]: ./output_images/undist.png "Road Transformed"
+[image3]: ./output_images/gradient_filters.png "Binary Examples"
+[image4]: ./output_images/combined.png "combined Example"
+[image5]: ./output_images/birdeye.png "Fit Visual"
+[image6]: ./output_images/histogram.png "histogram"
+[image7]: ./output_images/detecting_lane_lines.png "lane-lines-highlighted"
+[image8]: ./output_images/output.png "Output"
+[image9]: ./output_images/radius.png "radius"
 
-[video1]: ./project_video.mp4 "Video"
+[video1]: ./output_videos/project_video_processed2.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
@@ -117,7 +119,7 @@ When I tested the pipline on the video specificly in the duration 39 to 22 sec t
 * b – color component ranging from Blue to Yellow.
 Cell Code Block 26-27.
 After finding a sxuitable threshold I added it to the image process and this was my final result.
-Here's a [link to my video result](./project_video.mp4)
+Here's a [link to my video result](https://youtu.be/B5Lr3F7Bj2g)
 
 ---
 
