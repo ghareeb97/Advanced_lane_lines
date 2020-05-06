@@ -89,13 +89,17 @@ I verified that my perspective transform was working as expected by drawing the 
 
 #### 4. Lane Lines & Sliding Window 
 After Transforming the image and applying the gradient, I plotted a histogram to locate the left and right lane line. This is done by detecting the peaks of the historgram. Cell Code Block 7.
+
 ![Histogram Graph][image6]
+
 I used the two highest peaks from the histogram as a starting point to know where the lane lines are and thhen applying the sliding windows which moves along the road to locate where the lane lines go. To be more efficient in the video I used the previous lane line position as a start for the following frame instead of doing a blind search each frame. Cell Code Block 8.
+
 ![Sliding windows][image7]
 
 #### 5. Curvature of the lane and the position of the vehicle.
 From the second order polynomial that were used to locate lane line pixels
 The Radius of Curvature equation is:
+
 ![Radius of Curvature equation][image9]
 
 The values must be convert from pixels to real-world meter measurements. Cell Code Block 10.
@@ -105,6 +109,7 @@ The values must be convert from pixels to real-world meter measurements. Cell Co
 Now I have to overlay the results in the video to show clearly the lane are and the vehicle position so I took the warped image and the x&y points to fill the lane with color. Then I will use the warp function used for perspective transform but I will invert the dst and src numbers to lay down the colored lane are in position.
 I used cv2.puttext to add the lane curvature and vehicle offset on the top of the video.
 Cell Code Block 11.
+
 ![Final Image][image8]
 
 ---
